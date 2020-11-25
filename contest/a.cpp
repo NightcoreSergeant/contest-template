@@ -1,8 +1,15 @@
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+//#include <ext/pb_ds/tree_policy.hpp>
 #define ll long long
 #define endl "\n"
 #define IOS cin.tie(0);cout.tie(0);ios::sync_with_stdio(0);
+#define X first
+#define Y second
 using namespace std;
+using namespace __gnu_pbds;
+typedef tree<int,null_type,less<int>,rb_tree_tag,tree_order_statistics_node_update> indexed_set; //insert *find_by_order order_of_key
+typedef pair<int,int> par;
 const int mod = 1e9+7;
 int MSB(unsigned x){ //most significant bit-read IEEE 754
 	union { double a; int64_t b; };
