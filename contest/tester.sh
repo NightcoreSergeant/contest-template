@@ -1,7 +1,5 @@
 #!/bin/bash
-#g++ a.cpp -o a.out
-#g++ brute.cpp -o brute.out
-#g++ gen.cpp -o gen.out
+make
 for ((i=1;i>0;i++)) do
     echo $i
     #python3 gen.py > test
